@@ -1,0 +1,39 @@
+<script src="https://unpkg.com/deeplearn@0.4.2/dist/deeplearn.js"> </script> 
+
+<br>  
+    
+<input id="myButton01" type="button" value="Deeplearnjs Version?" onclick="{
+      document.getElementById('myDiv01').innerHTML = 'This version of Deeplearnjs = ' + dl.version                                                           
+}"><br><br>
+
+
+<div id="myDiv01">...</div><br>
+
+
+
+
+
+<br>
+
+
+
+
+
+
+
+
+
+<input id="myButton01" type="button" value="Use GPU math" onclick="{
+                                                                 
+                                                                 
+  var math = dl.ENV.math
+  var a = dl.Array1D.new([10,20,30])
+  var b = dl.Scalar.new(2.1)
+  math.scope(function() {
+     var result = math.add(a, b);
+     document.getElementById('myDiv02').innerHTML = result.getValues()    
+  })                                                          
+}">
+       
+
+<div id="myDiv02">...</div><br>
