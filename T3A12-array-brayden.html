@@ -42,13 +42,28 @@ Loop this amount <input type=text id="myText01" size=6 value= 5><br>
 
 myRandomNumber = new Array()
 
+for (myLoop=0; myLoop <= 7; myLoop++ ){
 
 
-myRandomNumber[0] = Math.floor(Math.random()*9+1)
+myRandomNumber[myLoop] = Math.floor(Math.random()*9+1)
+}
+
+for (myLoop=0; myLoop <= 7; myLoop++ ){
+
+document.getElementById('myDiv02').innerHTML += myRandomNumber[myLoop] + ' <br>'
+
+}
+		
+	for (myLoop=0; myLoop <= 7; myLoop++ ){
+	
+		if (myRandomNumber[myLoop] > myRandomNumber[myLoop + 1] ){
+			myTemp = myRandomNumber[myLoop]
+
+		}
+	}
 
 
 
-document.getElementById('myDiv02').innerHTML += myRandomNumber[0] + ' <br>'
 
 "><br>
 
