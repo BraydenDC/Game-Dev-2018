@@ -208,6 +208,7 @@ document.getElementById('bullet1').style.left = parseInt(document.getElementById
 
 <body background="triangle-polygon-loop-01-winter-seamless-looping-background-of-triangles_4kjxhxbo__F0000.png" onload="myTimer = setInterval('myScroll()', 100)" onkeypress="{
 
+
 if(event.keyCode==97){ document.getElementById('move1').style.left = parseInt(document.getElementById('move1').style.left)-5+'px'} // small 'a' key go left
 
 if(event.keyCode==119){ document.getElementById('move1').style.top = parseInt(document.getElementById('move1').style.top)-5+'px'} // small 'w' key go up
@@ -224,7 +225,8 @@ if(event.keyCode==53){ document.getElementById('move2').style.top = parseInt(doc
 
 if(event.keyCode==54){ document.getElementById('move2').style.left = parseInt(document.getElementById('move2').style.left)+5+'px'} // small 'num6' key go right
 
-}">
+
+}" style="background-position: 0px 395px;">
 
 <script> // This object must be after the body tag
 
@@ -232,7 +234,7 @@ myBgObject = eval('document.body');
 
 </script>
 
-<h2 align=center style="background-color:yellow"> By Brayden </h2>
+<h2 align="center" style="background-color:yellow"> By Brayden </h2>
 
 <!-- ******************** Some instructions that magically disappear ************************** -->
 
@@ -247,17 +249,17 @@ document.getElementById('myInstructions').style.visibility = 'hidden'}
 
 <!-- ******************** Following should be all your images ************************** -->
 
-<img id="move1" src="oie_16224913hBCEqMzZ.jpg" style="position:absolute; width:30px; height:30px; left:30px; top:250px" onClick="myGunPrep()">
+<img id="move1" src="oie_16224913hBCEqMzZ.jpg" style="position: absolute; width: 30px; height: 30px; left: 125px; top: 330px;" onclick="myGunPrep()">
 
-<img id="move2" src="download.jpg" style="position:absolute; width:30px; height:30px; left:500px; top:240px;"/>
+<img id="move2" src="download.jpg" style="position: absolute; width: 30px; height: 30px; left: 500px; top: 260px;">
 
-<input type=button value="Fire" onClick="myGunPrep()">
+<input type="button" value="Fire" onclick="myGunPrep()">
 
-<img id="bullet1" src="bullet-png-image-39228-300.png" style="position:absolute; width:10px; height:10px; left:500px; top:240px; visibility:hidden"/>
+<img id="bullet1" src="bullet-png-image-39228-300.png" style="position: absolute; width: 10px; height: 10px; left: -200px; top: 265px; visibility: hidden;">
 
 <!-- ******************** This is the silly little dot the main object hits ************************** -->
 
-<h1 style="position:absolute;left:200px;top:230px;"><font color=red>.</font></h1>
+<h1 style="position:absolute;left:200px;top:230px;"><font color="red">.</font></h1>
 
 
 
@@ -267,16 +269,34 @@ document.getElementById('myInstructions').style.visibility = 'hidden'}
 
 <!-- ******************** General game output ************************** -->
 
-<div id="myShowDiv1" style="width:300px; background-color:yellow">out 1</div>
+<div id="myShowDiv1" style="width:300px; background-color:yellow">move1 x=125, y=330</div>
 
-<div id="myShowDiv2" style="width:300px; background-color:yellow">out 2</div>
+<div id="myShowDiv2" style="width:300px; background-color:yellow">move2 x=500, y=260<br> move2 x=500, y=260<br> move2 x=500, y=260</div>
 
-<div id="myShowDiv3" style="width:300px; background-color:yellow">out 3</div>
+<div id="myShowDiv3" style="width:300px; background-color:yellow"></div>
 
 <br>At the bottom of every page make sure you include the following button:<br>
 
-<input type=button value="Back" style="font-size:25px" onclick="{window.history.back()}"><br><br>
+<input type="button" value="Back" style="font-size:25px" onclick="{window.history.back()}"><br><br>
+
+
 
 </body>
 
-</html
+
+<br>
+<br>
+
+WASD and NUMPAD 8,4,5,6 to move player 1 and player 2
+
+
+
+
+
+
+
+
+
+
+
+
