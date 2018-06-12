@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1528764866,
+	"version": 1528781053,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -19,6 +19,11 @@
 		"images/cavebackgroundtop-sheet0.png",
 		"images/cavebackground-sheet0.png",
 		"images/cavetrigger-sheet0.png",
+		"images/vincjgx3fkqofqhkxveowau7afgqhafyifadqzqp7y-sheet0.png",
+		"images/darkswitch-sheet0.png",
+		"images/backgroundfordark-sheet0.png",
+		"images/door2-sheet0.png",
+		"images/white-sheet0.png",
 		"media/teleport.m4a",
 		"media/teleport.ogg",
 		"media/background sounds.m4a",
@@ -35,11 +40,16 @@
 		"media/jump 1.ogg",
 		"media/dash sound.m4a",
 		"media/dash sound.ogg",
+		"media/walkingwoods.m4a",
+		"media/walkingwoods.ogg",
+		"media/forest sounds.m4a",
+		"media/forest sounds.ogg",
 		"icon-16.png",
 		"icon-32.png",
 		"icon-114.png",
 		"icon-128.png",
 		"icon-256.png",
-		"loading-logo.png"
+		"loading-logo.png",
+		"csgo.webm"
 	]
 }
