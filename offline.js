@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1528781053,
+	"version": 1528993086,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -49,7 +49,6 @@
 		"icon-114.png",
 		"icon-128.png",
 		"icon-256.png",
-		"loading-logo.png",
-		"csgo.webm"
+		"loading-logo.png"
 	]
 }
